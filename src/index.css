@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url(./assets/font/OpenSans-Regular.ttf) format("woff");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "October Crow";
+	src: url(./assets/font/October-Crow.ttf) format("woff");
+	font-style: normal;
+	font-weight: 400;
+}
+
+:root {
+	--brand-color: #ee9430;
+	--brand-color-light: #ecc839;
+	--brand-color-dark: #b63c00;
+	--brand-color-darker: #2b0e11;
+
+	--dark-10: #15181f;
+	--dark-20: #ffffff;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
